@@ -11,4 +11,4 @@ RUN apt-get update \
     && chmod +x brpc
 
 ENTRYPOINT ["./brpc"]
-CMD ["--config=install.js”]
+CMD ["--config=install.js"]
